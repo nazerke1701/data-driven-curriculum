@@ -8,7 +8,7 @@ from analysis import (best_textbook_by_topic, compare_textbooks,
                       recommend_hours, topic_stats)
 from theme import SCALE, RED, TEAL, style, insight, apply_theme
 
-st.set_page_config(page_title="Data-Driven Curriculum", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Sapa Edu", page_icon="📊", layout="wide")
 
 REQUIRED = ["school", "grade", "textbook", "topic", "pre_score", "score", "hours_current"]
 RSCALE = [[0, TEAL], [0.5, "#FFC21A"], [1, RED]]
