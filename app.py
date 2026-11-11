@@ -201,7 +201,7 @@ apply_theme()
 st.markdown(f"""<div class="hero">
 <div class="hero-text">
 <span class="badge">{t('badge')}</span>
-<h1>Data-Driven<br>Curriculum</h1>
+<h1>Sapa Edu</h1>
 <p>{t('hero_p')}</p>
 </div>
 <div class="caps">
